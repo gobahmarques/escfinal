@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^home/?$ index.php [NC,L]
+
+RewriteRule ^torneios/?$ torneio/lista-torneios.php [NC,L]
+RewriteRule ^torneio/([0-9]+)/?$ torneio/torneio-index.php?codigo=$1 [NC,L]
+RewriteRule ^torneio/([0-9]+)/inscricao/?$ torneio/torneio-inscricao.php?codigo=$1 [NC,L]
+RewriteRule ^torneio/([0-9]+)/partidas/?$ torneio/torneio-partidas.php?codigo=$1 [NC,L]
+RewriteRule ^torneio/([0-9]+)/premiados/?$ torneio/torneio-premiados.php?codigo=$1 [NC,L]
