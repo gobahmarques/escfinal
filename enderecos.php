@@ -1,8 +1,8 @@
 <?php
-	$css = 'http://localhost/esc/css/';
-	$img = 'http://localhost/esc/img/';
-	$js = 'http://localhost/esc/js/';
-    $sidebar = 'http://localhost/esc/sidebar/';
+	$css = 'http://localhost/escfinal/css/';
+	$img = 'http://localhost/escfinal/img/';
+	$js = 'http://localhost/escfinal/js/';
+    $sidebar = 'http://localhost/escfinal/sidebar/';
 ?>
 
-<base href="http://localhost/esc/" />
+<base href="http://localhost/escfinal/" />

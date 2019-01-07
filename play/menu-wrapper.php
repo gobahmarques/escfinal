@@ -13,7 +13,7 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="play/">
+        <a class="nav-link" href="play/salas-personalizadas/">
             <i class="fas fa-cogs h3 mr-md-2"></i>
             <span>SALAS PERSONALIZADAS</span>
         </a>

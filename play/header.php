@@ -1,3 +1,11 @@
+<div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+      </div>
+    </div>
+  </div>
+</div>
 <nav class="navbar navbar-expand navbar-dark bg-preto static-top">
     <a class="navbar-brand mr-1" href="play/">
         <img src="<?php echo $img; ?>logo.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" height="30">  
