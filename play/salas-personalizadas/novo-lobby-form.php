@@ -1,7 +1,7 @@
 <h2>
     + Novo Lobby
 </h2>
-Jogue partidas personalizadas com a comunidade e acumule recursos com isto.<br><br>
+Jogue partidas personalizadas com a comunidade e acumule recursos<br><br>
 
 <strong>
     Informações Gerais
@@ -34,11 +34,12 @@ Jogue partidas personalizadas com a comunidade e acumule recursos com isto.<br><
     </div>
     <div class="col-4">
         Privacidade<br>
-        <select class="form-control">
-        
+        <select class="form-control" onchange="alterarPrivacidade(this.value);">
+            <option value="0">Público</option>
+            <option value="1">Privado</option>
         </select>
     </div>
-    <div class="col-8">
+    <div class="col-8 campoSenha">
         Senha<br>
         <input type="password" class="form-control" name="nomeSala" placeholder="Informe a senha">
     </div>
@@ -46,3 +47,13 @@ Jogue partidas personalizadas com a comunidade e acumule recursos com isto.<br><
         <input type="button" class="btn btn-azul form-control" value="CRIAR LOBBY">
     </div>
 </div>
+
+<script>
+    function alterarPrivacidade(valor){
+        if(valor == "0"){
+            $(".campoSenha").css("display", "none");
+        }else{
+            $(".campoSenha").css("display", "block");
+        }
+    }
+</script>

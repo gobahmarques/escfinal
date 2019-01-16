@@ -19,7 +19,7 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="play/">
+        <a class="nav-link" href="play/caixas/">
             <i class="fas fa-box-open h3 mr-md-2"></i>
             <span>CAIXAS E-SPORTS</span>
         </a>
@@ -31,7 +31,7 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="play/">
+        <a class="nav-link" href="blog/">
             <i class="fas fa-pen-fancy h3 mr-md-2"></i>
             <span>BLOG</span>
         </a>

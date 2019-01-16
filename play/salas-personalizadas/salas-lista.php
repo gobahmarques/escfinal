@@ -69,6 +69,7 @@
                                         <th scope="col">Vagas</th>
                                         <th scope="col">Recompensa</th>
                                         <th scope="col">Priv.</th>
+                                        <th scope="col"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -84,6 +85,7 @@
                                         <td class="h5 font-weight-bold align-middle">x/2</td>
                                         <td class="align-middle">e$ 5.000</td>
                                         <td class="align-middle">Pub.</td>
+                                        <td class="align-middle"><a href="play/sala-personalizada/123/"><input type="button" value="ENTRAR" class="btn btn-azul2"></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
@@ -97,6 +99,7 @@
                                         <td class="h5 font-weight-bold align-middle">x/2</td>
                                         <td class="align-middle">e$ 5.000</td>
                                         <td class="align-middle">Pub.</td>
+                                        <td class="align-middle"><a href="play/sala-personalizada/123/"><input type="button" value="ENTRAR" class="btn btn-azul2"></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
@@ -110,6 +113,7 @@
                                         <td class="h5 font-weight-bold align-middle">x/2</td>
                                         <td class="align-middle">e$ 5.000</td>
                                         <td class="align-middle">Pub.</td>
+                                        <td class="align-middle"><a href="play/sala-personalizada/123/"><input type="button" value="ENTRAR" class="btn btn-azul2"></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
@@ -123,6 +127,7 @@
                                         <td class="h5 font-weight-bold align-middle">x/2</td>
                                         <td class="align-middle">e$ 5.000</td>
                                         <td class="align-middle">Pub.</td>
+                                        <td class="align-middle"><a href="play/sala-personalizada/123/"><input type="button" value="ENTRAR" class="btn btn-azul2"></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
@@ -136,6 +141,7 @@
                                         <td class="h5 font-weight-bold align-middle">x/2</td>
                                         <td class="align-middle">e$ 5.000</td>
                                         <td class="align-middle">Pub.</td>
+                                        <td class="align-middle"><a href="play/sala-personalizada/123/"><input type="button" value="ENTRAR" class="btn btn-azul2"></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
@@ -149,6 +155,7 @@
                                         <td class="h5 font-weight-bold align-middle">x/2</td>
                                         <td class="align-middle">e$ 5.000</td>
                                         <td class="align-middle">Pub.</td>
+                                        <td class="align-middle"><a href="play/sala-personalizada/123/"><input type="button" value="ENTRAR" class="btn btn-azul2"></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
@@ -162,6 +169,7 @@
                                         <td class="h5 font-weight-bold align-middle">x/2</td>
                                         <td class="align-middle">e$ 5.000</td>
                                         <td class="align-middle">Pub.</td>
+                                        <td class="align-middle"><a href="play/sala-personalizada/123/"><input type="button" value="ENTRAR" class="btn btn-azul2"></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
@@ -175,6 +183,7 @@
                                         <td class="h5 font-weight-bold align-middle">x/2</td>
                                         <td class="align-middle">e$ 5.000</td>
                                         <td class="align-middle">Pub.</td>
+                                        <td class="align-middle"><a href="play/sala-personalizada/123/"><input type="button" value="ENTRAR" class="btn btn-azul2"></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
@@ -188,6 +197,7 @@
                                         <td class="h5 font-weight-bold align-middle">x/2</td>
                                         <td class="align-middle">e$ 5.000</td>
                                         <td class="align-middle">Pub.</td>
+                                        <td class="align-middle"><a href="play/sala-personalizada/123/"><input type="button" value="ENTRAR" class="btn btn-azul2"></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
@@ -201,6 +211,7 @@
                                         <td class="h5 font-weight-bold align-middle">x/2</td>
                                         <td class="align-middle">e$ 5.000</td>
                                         <td class="align-middle">Pub.</td>
+                                        <td class="align-middle"><a href="play/sala-personalizada/123/"><input type="button" value="ENTRAR" class="btn btn-azul2"></a></td>
                                     </tr>
                                 </tbody>
                             </table>

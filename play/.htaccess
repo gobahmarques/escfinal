@@ -12,4 +12,7 @@ RewriteRule ^torneio/([0-9]+)/partidas/?$ torneio/torneio-partidas.php?codigo=$1
 RewriteRule ^torneio/([0-9]+)/premiados/?$ torneio/torneio-premiados.php?codigo=$1 [NC,L]
 
 RewriteRule ^salas-personalizadas/?$ salas-personalizadas/salas-lista.php [NC,L]
-RewriteRule ^sala/([0-9]+)?$ salas-personalizadas/sala-index.php [NC,L]
+RewriteRule ^sala-personalizada/([0-9]+)/?$ salas-personalizadas/sala-index.php [NC,L]
+
+RewriteRule ^caixas/?$ caixas/lista-caixas.php [NC,L]
+RewriteRule ^caixas/([0-9]+)/?$ caixas/caixa.php [NC,L]

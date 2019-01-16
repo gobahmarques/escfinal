@@ -41,6 +41,9 @@
 .bb-preta {
     border-bottom: solid 3px #000;
 }
+.b-cinza {
+    border: solid 2px #B5B5B5;
+}
 
 /* BOTOES */
 
@@ -119,5 +122,26 @@
 
 .statusTorneioLista {
     font-size: 14px;
+}
+
+/* CAIXAS */
+
+.itemComum {
+    border-left: solid 3px #aaaaaa;
+}
+.itemRaro {
+    border-left: solid 3px #1D32F2;
+}
+.itemEpico {
+    border-left: solid 3px #C91DF2;
+}
+.itemLendario {
+    border-left: solid 3px #F2C01D;
+}
+
+/* SALAR PERSONALIZADAS */
+
+.campoSenha {
+    display: none;
 }
 

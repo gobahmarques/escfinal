@@ -31,195 +31,117 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-8">
-                            <i class="fas fa-cogs h5 mr-md-2"></i><span class="h5"> Salas Personalizadas</span>
-                        </div>
-                        <div class="col-4 text-right">
-                            <input type="button" class="btn btn-azul" value="+ NOVO LOBBY" onclick="novoLobby();">
-                        </div>
-                        <div class="col-12 mt-4 font-weight-bold">
-                            FILTROS DE BUSCA:
-                        </div>
-                        <div class="col-6">
-                            Jogo
-                            <select class="form-control">
-                                <option>Lista dos Jogos</option>
-                            </select>
-                        </div>
-                        <div class="col-6">
-                        
-                        </div>
-                        <div class="col-12">
-                            Status
-                        </div>
-                        <div class="col-4">
-                            <input type="button" class="btn btn-laranja2 form-control" value="PÚBLICAS">
-                        </div>
-                        <div class="col-4">
-                            <input type="button" class="btn btn-cinza form-control" value="PRIVADAS">
-                        </div>
-                        <div class="col-4">
-                            <input type="button" class="btn btn-cinza form-control" value="PASSADOS">
-                        </div>
-                        <div class="col-12 mt-4">
-                            <table class="table table-sm table-striped mt-3 text-center">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Jogo</th>
-                                        <th scope="col">Nome</th>
-                                        <th scope="col">Vagas</th>
-                                        <th scope="col">Recompensa</th>
-                                        <th scope="col">Priv.</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">
-                                            <img src="<?php echo $img; ?>icones/hs.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" height="30" class="mr-2 ml-2 mt-1 mb-2">
-                                        </th>
-                                        <td class="h5 align-middle">
-                                            <span class="font-weight-bold">
-                                                Nome do Torneio
-                                            </span>                                     
-                                        </td>
-                                        <td class="h5 font-weight-bold align-middle">x/2</td>
-                                        <td class="align-middle">e$ 5.000</td>
-                                        <td class="align-middle">Pub.</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <img src="<?php echo $img; ?>icones/hs.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" height="30" class="mr-2 ml-2 mt-1 mb-2">
-                                        </th>
-                                        <td class="h5 align-middle">
-                                            <span class="font-weight-bold">
-                                                Nome do Torneio
-                                            </span>                                     
-                                        </td>
-                                        <td class="h5 font-weight-bold align-middle">x/2</td>
-                                        <td class="align-middle">e$ 5.000</td>
-                                        <td class="align-middle">Pub.</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <img src="<?php echo $img; ?>icones/hs.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" height="30" class="mr-2 ml-2 mt-1 mb-2">
-                                        </th>
-                                        <td class="h5 align-middle">
-                                            <span class="font-weight-bold">
-                                                Nome do Torneio
-                                            </span>                                     
-                                        </td>
-                                        <td class="h5 font-weight-bold align-middle">x/2</td>
-                                        <td class="align-middle">e$ 5.000</td>
-                                        <td class="align-middle">Pub.</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <img src="<?php echo $img; ?>icones/hs.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" height="30" class="mr-2 ml-2 mt-1 mb-2">
-                                        </th>
-                                        <td class="h5 align-middle">
-                                            <span class="font-weight-bold">
-                                                Nome do Torneio
-                                            </span>                                     
-                                        </td>
-                                        <td class="h5 font-weight-bold align-middle">x/2</td>
-                                        <td class="align-middle">e$ 5.000</td>
-                                        <td class="align-middle">Pub.</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <img src="<?php echo $img; ?>icones/hs.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" height="30" class="mr-2 ml-2 mt-1 mb-2">
-                                        </th>
-                                        <td class="h5 align-middle">
-                                            <span class="font-weight-bold">
-                                                Nome do Torneio
-                                            </span>                                     
-                                        </td>
-                                        <td class="h5 font-weight-bold align-middle">x/2</td>
-                                        <td class="align-middle">e$ 5.000</td>
-                                        <td class="align-middle">Pub.</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <img src="<?php echo $img; ?>icones/hs.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" height="30" class="mr-2 ml-2 mt-1 mb-2">
-                                        </th>
-                                        <td class="h5 align-middle">
-                                            <span class="font-weight-bold">
-                                                Nome do Torneio
-                                            </span>                                     
-                                        </td>
-                                        <td class="h5 font-weight-bold align-middle">x/2</td>
-                                        <td class="align-middle">e$ 5.000</td>
-                                        <td class="align-middle">Pub.</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <img src="<?php echo $img; ?>icones/hs.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" height="30" class="mr-2 ml-2 mt-1 mb-2">
-                                        </th>
-                                        <td class="h5 align-middle">
-                                            <span class="font-weight-bold">
-                                                Nome do Torneio
-                                            </span>                                     
-                                        </td>
-                                        <td class="h5 font-weight-bold align-middle">x/2</td>
-                                        <td class="align-middle">e$ 5.000</td>
-                                        <td class="align-middle">Pub.</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <img src="<?php echo $img; ?>icones/hs.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" height="30" class="mr-2 ml-2 mt-1 mb-2">
-                                        </th>
-                                        <td class="h5 align-middle">
-                                            <span class="font-weight-bold">
-                                                Nome do Torneio
-                                            </span>                                     
-                                        </td>
-                                        <td class="h5 font-weight-bold align-middle">x/2</td>
-                                        <td class="align-middle">e$ 5.000</td>
-                                        <td class="align-middle">Pub.</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <img src="<?php echo $img; ?>icones/hs.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" height="30" class="mr-2 ml-2 mt-1 mb-2">
-                                        </th>
-                                        <td class="h5 align-middle">
-                                            <span class="font-weight-bold">
-                                                Nome do Torneio
-                                            </span>                                     
-                                        </td>
-                                        <td class="h5 font-weight-bold align-middle">x/2</td>
-                                        <td class="align-middle">e$ 5.000</td>
-                                        <td class="align-middle">Pub.</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <img src="<?php echo $img; ?>icones/hs.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" height="30" class="mr-2 ml-2 mt-1 mb-2">
-                                        </th>
-                                        <td class="h5 align-middle">
-                                            <span class="font-weight-bold">
-                                                Nome do Torneio
-                                            </span>                                     
-                                        </td>
-                                        <td class="h5 font-weight-bold align-middle">x/2</td>
-                                        <td class="align-middle">e$ 5.000</td>
-                                        <td class="align-middle">Pub.</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <hr>                            
-                            <nav aria-label="Navegação de página exemplo">
-                                <ul class="pagination justify-content-end">
-                                    <li class="page-item disabled">
-                                        <a class="page-link" href="#" tabindex="-1">Anterior</a>
-                                    </li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">Próximo</a>
-                                    </li>
-                                </ul>
-                            </nav>
+                            <i class="fas fa-cogs h5 mr-md-2"></i><span class="h5"> Sala Personalizada - Cod: 123</span>
                         </div>
                     </div>  
+                    <div class="row mt-3 text-center">
+                        <div class="col-2">
+                            <div class="bg-cinza p-2">
+                                ID <br>
+                                <span class="h4 font-weight-bold">123</span>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="bg-cinza p-2">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="<?php echo $img; ?>icones/hs.png" alt="e-Sports Cups, sua plataforma de e-Sports." title="Logo e-Sports Cups" width="100%" class="mr-2 ml-2 mt-1 mb-2">
+                                    </div>
+                                    <div class="col-9 text-left">
+                                        Nome da Sala <br>
+                                        <span class="h4 font-weight-bold">123</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="bg-cinza p-2">
+                                Vagas <br>
+                                <span class="h4 font-weight-bold">1/6</span>
+                            </div>
+                        </div>
+                        <div class="col-5 mt-3">
+                            <div class="bg-cinza p-2">
+                                Pote <br>
+                                <span class="h4 font-weight-bold">e$ 12.000</span>
+                            </div>
+                        </div>
+                        <div class="col-7 mt-3">
+                            <div class="bg-cinza p-2">
+                                Status <br>
+                                <span class="h4 font-weight-bold">Aguardando Jogadores...</span>                                
+                                <!--
+                                    0 - Aguardando Jogadores
+                                    1 - Em Andamento
+                                    2 - Finalizado
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+<!-- MODELO DE TIME
+                        <div class="col-6 mb-3">
+                            <div class="b-cinza p-2">
+                                <span class="h4 font-weight-bold">Equipe 1</span>
+                                <table class="table mt-3">
+                                    <tr> 
+                                        <td>Foto</td>
+                                        <td>Nick Jogador</td>
+                                        <td class="text-right">Ação</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+-->
+                        <div class="col-6 mb-3">
+                            <div class="b-cinza p-2">
+                                <span class="h4 font-weight-bold">Equipe 1</span>
+                                <table class="table mt-3">
+                                    <tr> 
+                                        <td>Foto</td>
+                                        <td>Nick Jogador</td>
+                                        <td class="text-right">Ação</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="b-cinza p-2">
+                                <span class="h4 font-weight-bold">Equipe 1</span>
+                                <table class="table mt-3">
+                                    <tr> 
+                                        <td>Foto</td>
+                                        <td>Nick Jogador</td>
+                                        <td class="text-right">Ação</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="b-cinza p-2">
+                                <span class="h4 font-weight-bold">Equipe 1</span>
+                                <table class="table mt-3">
+                                    <tr> 
+                                        <td>Foto</td>
+                                        <td>Nick Jogador</td>
+                                        <td class="text-right">Ação</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="b-cinza p-2">
+                                <span class="h4 font-weight-bold">Equipe 1</span>
+                                <table class="table mt-3">
+                                    <tr> 
+                                        <td>Foto</td>
+                                        <td>Nick Jogador</td>
+                                        <td class="text-right">Ação</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>                        
+                    </div>
                 </div>
                 <!-- /.container-fluid -->
 
